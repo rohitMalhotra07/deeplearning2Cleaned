@@ -9,7 +9,7 @@ python drl.py --scenario deathmatch --wad deathmatch_rockets --n_bots 8 --action
 
 
 ## Train and Evaluate DRQN with augmented features
-python arnold.py --scenario deathmatch --wad deathmatch_rockets --n_bots 8 --action_combinations "move_fb;move_lr;turn_lr;attack" --game_features "enemy" --network_type dqn_rnn --recurrence lstm --n_rec_updates 5 --gpu_id 0 --height 42 --width 42
+python drl.py --scenario deathmatch --wad deathmatch_rockets --n_bots 8 --action_combinations "move_fb;move_lr;turn_lr;attack" --game_features "enemy" --network_type dqn_rnn --recurrence lstm --n_rec_updates 5 --gpu_id 0 --height 42 --width 42
 
 
 ## Train and Evaluate A3C
